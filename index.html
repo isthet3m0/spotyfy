@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Spotify</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <script src="preload.js"></script>
+    </head>
+
+<body onload="spotyfy()">
+    <div class="container">
+        <div class="left">
+            <div style="height:20px"></div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="assets/Home.svg" alt="" class="gray-filtered">
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/search/Demaciadas%20Mujeres">
+                            <img src="assets/Search.svg"  alt="" class="gray-filtered">
+                            <span>Search</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/playlist/5fK8IyOP8r8qWlDKJ7RAt5">
+                            <img src="assets/YourLibrary.svg" alt="" class="gray-filtered">
+                            <span>Your Library</span>
+                        </a>
+                    </li>
+                    <div style="height:30px"></div>
+                    <li>
+                        <a href="https://open.spotify.com/playlist/6In0k2filuF3yebcD8xlCS">
+                            <img src="assets/CreatePlaylist.svg" alt="" class="gray-filtered">
+                            <span>Create Playlist</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/collection/tracks">
+                            <img src="assets/Like.svg" alt="" class="gray-filtered">
+                            <span>Liked Songs</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <hr width="100%">
+
+            <div style="height: 20px;"></div>
+            <div class="menu playlists">
+                <ul>
+
+                    <li>
+                        <a href="https://open.spotify.com/track/4YKP5UKFofcfW7EMjIsVvG?si=236be72f6aca4d75">
+                            <span>La Primera</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/track/6HSnLmg25CFVozSlimAzF4?si=7e7c4c76d0944d73">
+                            <span>Es Mejor</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/track/1E7Q4ZfZSeA4ni4txOCBEa?si=00fc867f029742e2">
+                            <span>6 AM</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/track/4wVOKKEHUJxHCFFNUWDn0B?si=bdcf859fe1ac4a18">
+                            <span>Chicago Freestyle</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/track/1kjs5eR4DMzyB0gm1Z8waV?si=297c92993a89478d">
+                            <span>Dance Crip</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/track/08mG3Y1vljYA6bvDt4Wqkj?si=568e42265d1f4572">
+                            <span>Back in Black</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/track/46FdwGMcgz6gik4RCpWBAW?si=6e6524cd3003497a">
+                            <span>Los collares</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/track/3YURfhPPT7GipmI7pIj0m3?si=71e846cd81ac4baa">
+                            <span>Llorando en la limo</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/track/5xGxQif5SNS7u2rcQiSCWu?si=47b1c4e0aa284cd0">
+                            <span>No echo de menos</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/track/73vIOb4Q7YN6HeJTbscRx5?si=fe40c4359873463e">
+                            <span>Miss you</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://open.spotify.com/track/36WEIfujsYbkA2WoLhSRkl?si=a9db4e18ce324657">
+                            <span>Y a mi qué?</span> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/track/1Crj1zkRMpsEjb9NOR6Zof?si=e8eeb5e9d0c343fc">
+                            <span>L-GANTE X BZRP</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/track/1b62AO1IzcVr5SOgoguc9o?si=b09e42a28c18411b">
+                            <span>Sin frenos</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/track/18onJmAJLKbrQVEt9IiKs1?si=acfe1c5df8e84959">
+                            <span>El nene</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/track/7k3qWn8D43a5ISa3x8lJux?si=9c6a5c6bad1b4bed">
+                            <span>Que nos paso</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/track/39yyHtQ4tkjZzd8TfIBKQw?si=19d1b611c1ec400b">
+                            <span>Morad</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/track/0yzcqtdu85erFxmgeZp0zW?si=08fe0cae83af46f3">
+                            <span>Negro y Azul</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/track/6HzREffgQ16b7Rlrr6BY0m?si=0bdbaa2252ec423d">
+                            <span>Psycodelica</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/track/6DCZcSspjsKoFjzjrWoCdn?si=13bd93782b5042b3">
+                            <span>God´s plans</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/track/3xNvgP5eZ49TIhcpCe28pu?si=e0e73a6cf80942e1">
+                            <span>Wake me Up</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="current-song-cover">
+                <img src="images/song-cover.jpeg" alt="" style="height: 0px;">
+            </div>
+
+
+        </div>
+        <div class="right">
+            <div class="playlist-header">
+                <div class="playlist-top">
+                    <div class="playlist-arrows">
+                        <div class="arrow-container">
+                            <img src="assets/LeftArrow.svg" alt="">
+                        </div>
+                        <div class="arrow-container">
+                            <img src="assets/RightArrow.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="playlist-top-email">
+                        <div class="arrow-container">
+                            <img src="assets/Profile.svg" alt="">
+                        </div>
+                        <span>isthet3m0_xdx...</span>
+
+                    </div>
+                </div>
+                <div class="playlist-content">
+                    <div class="playlist-cover">
+                        <img src="https://indiehoy.com/wp-content/uploads/2021/12/dillom.jpg" alt="">
+                    </div>
+                    <div class="playlist-info">
+                        <div class="playlist-public"> PUBLIC PLAYLIST</div>
+                        <div id="text" class="playlist-title">Post Mortem</div>
+                        <div class="playlist-description">A soundtrack to fuel your good mood while on the road.</div>
+                        <div style="height: 10px;"></div>
+                        <div class="playlist-stats">
+                            <img src="assets/spotify-logo.png" width="24px" height="24px" alt="">
+                            <span> Spotify ·</span>
+                            <span>5,131,321 likes · </span>
+                            <span>100 songs, </span>
+                            <span>6 hr 57 min </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="playlist-songs-container">
+                <div class="playlist-buttons">
+                    <div class="playlist-buttons-left">
+                        <div class="playlist-buttons-resume-pause">
+                            <img src="assets/Pause.svg" alt="">
+                        </div>
+                        <div class="playlist-buttons-like">
+                            <img src="assets/FiiledLike.svg" alt="" class="spotify-color">
+                        </div>
+                        <div class="playlist-buttons-download">
+                            <img src="assets/Download.svg" alt="">
+                        </div>
+                        <div class="playlist-buttons-three-dot">
+                            <img src="assets/ThreeDots.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="playlist-buttons-right">
+                        <div class="playlist-buttons-search">
+                            <img src="assets/Search.svg" alt="">
+                        </div>
+                        <div class="playlist-buttons-order">
+                            Custom Order
+                        </div>
+                    </div>
+                </div>
+                <div class="playlist-songs">
+                    <table>
+                        <tr>
+                            <th>#</th>
+                            <th>Title</th>
+                            <th>Album</th>
+                            <th>Date Added</th>
+                            <th>
+                                <img src="assets/Duration.svg" alt="">
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td class="song-title">
+                                <div class="song-image">
+                                    <img src="https://yt3.ggpht.com/iqyBe3n9t_vemrojyppHKJW5rXviFcoYbHFOD_neW4dbThopUKkaGuEa2DtLT2MF9_KZwyDmxA=s1200" alt="">
+                                </div>
+                                <div class="song-name-album">
+                                    <div class="song-name"><a id="nameone" href="https://open.spotify.com/track/65zh1W9YBpgGlS4G98mI0v?si=2b58ffb9a5ea4408">Pelotuda</a></div>
+                                    <div class="song-artist">Dillom</div>
+                                </div>
+                            </td>
+                            <td class="song-album">Post Mortem</td>
+                            <td class="song-date-added">May 31, 2022</td>
+                            <td class="song-duration">
+                                3:26
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td class="song-title">
+                                <div class="song-image">
+                                    <img src="https://i1.sndcdn.com/artworks-Hjj7FFIPwf9m-0-t500x500.jpg" alt="">
+                                </div>
+                                <div class="song-name-album">
+                                    <div class="song-name"><a id="nameone" href="https://open.spotify.com/track/4A9u8OrzFYbxdjiydkNdUi?si=c1b80e1725b1457b">L-GanTE</a></div>
+                                    <div class="song-artist">L-GANTE Papu DJ</div>
+                                </div>
+                            </td>
+                            <td class="song-album">Papu DJ</td>
+                            <td class="song-date-added">May 31, 2022</td>
+                            <td class="song-duration">
+                                3:25
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td class="song-title">
+                                <div class="song-image">
+                                    <img src="https://banner2.cleanpng.com/20180501/kze/kisspng-walter-white-computer-icons-logo-emoticon-5ae88ea32ead11.4909661715251903071912.jpg" alt="">
+                                </div>
+                                <div class="song-name-album">
+                                    <div class="song-name"><a id="nameone" href="https://open.spotify.com/track/0yzcqtdu85erFxmgeZp0zW?si=ce2d1961bb9f4771">Negro y Azul</a></div>
+                                    <div class="song-artist">Breaking Bad</div>
+                                </div>
+                            </td>
+                            <td class="song-album">Los cuates de sinaloa</td>
+                            <td class="song-date-added">May 31, 2010</td>
+                            <td class="song-duration">
+                                2:50
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td class="song-title">
+                                <div class="song-image">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/d/db/El_Triste_%28album%29.jpeg" alt="">
+                                </div>
+                                <div class="song-name-album">
+                                    <div class="song-name"><a id="nameone" href="https://open.spotify.com/track/0aTMBEfPCCkKkneU6gLmDD?si=fdbc0517e3be4061">El triste</a></div>
+                                    <div class="song-artist">Jose Jose</div>
+                                </div>
+                            </td>
+                            <td class="song-album">Sad</td>
+                            <td class="song-date-added">15 de marzo de 1970</td>
+                            <td class="song-duration">
+                                3:00
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td class="song-title">
+                                <div class="song-image">
+                                    <img src="https://is3-ssl.mzstatic.com/image/thumb/Music112/v4/d5/ef/fa/d5effad4-8cfd-ea52-4560-80dc4a65ced5/190296829482.jpg/1200x1200bf-60.jpg" alt="">
+                                </div>
+                                <div class="song-name-album">
+                                    <div class="song-name"><a id="nameone" href="https://open.spotify.com/track/26xuPpQyR8pScKkQswGZ7B?si=866a6b3f9a964cb1">Don Patricio BZRP</a></div>
+                                    <div class="song-artist">Don Patricio x bzrp</div>
+                                </div>
+                            </td>
+                            <td class="song-album">SESSION BZRP VOL. 25</td>
+                            <td class="song-date-added">May 31, 2022</td>
+                            <td class="song-duration">
+                                3:45
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-player">
+        <div class="footer-player-left">
+            <div class="footer-player-left-song">
+                <div class="footer-player-left-song-name">La Primera</div>
+                <div class="footer-player-left-song-artist">Dillom</div>
+            </div>
+            <div class="footer-player-left-like">
+                <img src="assets/FiiledLike.svg" alt="" class="spotify-color" style="height: 18px; width: 18px;">
+            </div>
+        </div>
+        <div class="footer-player-middle">
+            <div class="footer-player-middle-buttons">
+                <img src="assets/Shuffle.svg" alt="" class="gray-filtered">
+                <img src="assets/Previous.svg" alt="" class="gray-filtered">
+                <span class="pause-button">
+                    <img src="assets/Pause.svg" alt="">
+                </span>
+                <img src="assets/Next.svg" alt="" class="gray-filtered">
+                <img src="assets/Repeat.svg" alt="" class="gray-filtered">
+            </div>
+            <div class="footer-player-middle-slider">
+                <div class="player-time">1:33</div>
+                <div class="player-slider">
+                    <input type="range" min="1" max="100" value="30">
+                </div>
+                <div class="player-time">4:34</div>
+            </div>
+        </div>
+        <div class="footer-player-right">
+            <div class="footer-player-right-buttons">
+                <img src="assets/Lyrics.svg" alt="">
+                <img src="assets/Queue.svg" class="filtered-img" alt="">
+                <img src="assets/Connect to a device.svg" class="filtered-img" alt="">
+                <img src="assets/Volume.svg" class="filtered-img" alt="">
+                <div class="player-slider" style="margin-right: 20px; width: 200px;">
+                    <input type="range" min="1" max="100" value="30" style="width:75px; position: relative; top:-5px;">
+                </div>
+                <img src="assets/Full screen.svg" class="filtered-img" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
